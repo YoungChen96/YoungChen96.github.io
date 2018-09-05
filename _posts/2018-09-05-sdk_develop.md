@@ -4,7 +4,7 @@ title:        "用Golang进行数据封装生成可供C/C++调用SO库的SDK开�
 subtitle:     "初用Golang"
 date:         2018-09-05 12:00:00
 author:       "Young"
-header-img:   "http://booklibimg.kfzimg.com/data/book_lib_img_v2/isbn/0/d660/d6603c95313aa87f3675af1fe66fa17e_0_0_0_0.jpg"
+header-img:   "img/post-bg-kuaidi.jpg"
 header-mask:  0.3
 catalog:      true
 multilingual: true
