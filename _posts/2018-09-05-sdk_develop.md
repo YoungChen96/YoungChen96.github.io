@@ -1,3 +1,20 @@
+---
+layout:       post
+title:        "用Golang进行数据封装生成可供C/C++调用SO库的SDK开发"
+subtitle:     "初用Golang"
+date:         2018-09-05 12:00:00
+author:       "Young"
+header-img:   "http://booklibimg.kfzimg.com/data/book_lib_img_v2/isbn/0/d660/d6603c95313aa87f3675af1fe66fa17e_0_0_0_0.jpg"
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - Golang
+    - cgo
+    - TCP
+    - 项目总结
+---
+
 # 用Golang进行数据封装生成可供C/C++调用SO库的SDK开发
 
 游戏服务端研发部门要用C/C++开发，由于框架限制等原因不能直接使用socket来和我们的聊天系统进行数据交换，所以需要我这边模拟接收发送数据行为并生成一个so库供C/C++直接调用方法。当时考虑到直接用C/C++写的话开发成本有点高而且我也不熟悉C++网络编程，网上看到Golang程序可以和C/C++互相调用，就决定用Golang来处理了（因为Golang的网络编程和Json处理等机制比较方便）。
